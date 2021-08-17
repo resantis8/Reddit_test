@@ -30,7 +30,38 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         // If any sessions were discarded while the application was not running, this will be called shortly after application:didFinishLaunchingWithOptions.
         // Use this method to release any resources that were specific to the discarded scenes, as they will not return.
     }
-
-
+    
+    // Handle URL object returned by OAuth2
+    func application(_ app: UIApplication, open url: URL, options: [UIApplication.OpenURLOptionsKey: Any] = [:]) -> Bool {
+        // handle redirect URL from reddit.com
+        return OAuth2Authorizer.sharedInstance.receiveRedirect(url as URL, completion: {(result) -> Void in
+            switch result {
+            case .failure(let error):
+                print(error)
+            case .success(let token):
+                DispatchQueue.main.async(execute: { () -> Void in
+                    do {
+                        try OAuth2TokenRepository.save(token: token, of: token.name)
+                    } catch { print(error) }
+                })
+            }
+        })
+    }
+    
+    func application(_ application: UIApplication, open url: URL, sourceApplication: String?, annotation: Any) -> Bool {
+        // handle redirect URL from reddit.com
+        return OAuth2Authorizer.sharedInstance.receiveRedirect(url as URL, completion: {(result) -> Void in
+            switch result {
+            case .failure(let error):
+                print(error)
+            case .success(let token):
+                DispatchQueue.main.async(execute: { () -> Void in
+                    do {
+                        try OAuth2TokenRepository.save(token: token, of: token.name)
+                    } catch { print(error) }
+                })
+            }
+        })
+    }
 }
 
