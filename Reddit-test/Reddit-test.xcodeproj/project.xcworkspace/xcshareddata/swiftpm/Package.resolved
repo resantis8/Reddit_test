@@ -1,0 +1,16 @@
+{
+  "object": {
+    "pins": [
+      {
+        "package": "HTMLSpecialCharacters",
+        "repositoryURL": "https://github.com/sonsongithub/HTMLSpecialCharacters",
+        "state": {
+          "branch": null,
+          "revision": "7797f4cca9f19c54436ad7470222130227cba98d",
+          "version": "1.4.0"
+        }
+      }
+    ]
+  },
+  "version": 1
+}
