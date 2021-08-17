@@ -15,6 +15,7 @@
 		176F2A2B26CB5FEC003321B7 /* Reddit_testTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 176F2A2A26CB5FEC003321B7 /* Reddit_testTests.swift */; };
 		176F2A3626CB5FEC003321B7 /* Reddit_testUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 176F2A3526CB5FEC003321B7 /* Reddit_testUITests.swift */; };
 		176F2A4926CB6FA1003321B7 /* Configuration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 176F2A4826CB6FA1003321B7 /* Configuration.swift */; };
+		176F2A4D26CB7D40003321B7 /* reddift_config.json in Resources */ = {isa = PBXBuildFile; fileRef = 176F2A4C26CB7D3F003321B7 /* reddift_config.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		176F2A3526CB5FEC003321B7 /* Reddit_testUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Reddit_testUITests.swift; sourceTree = "<group>"; };
 		176F2A3726CB5FEC003321B7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		176F2A4826CB6FA1003321B7 /* Configuration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Configuration.swift; sourceTree = "<group>"; };
+		176F2A4C26CB7D3F003321B7 /* reddift_config.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = reddift_config.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,16 +101,15 @@
 		176F2A1226CB5FE7003321B7 /* Reddit-test */ = {
 			isa = PBXGroup;
 			children = (
+				176F2A4A26CB7C93003321B7 /* Resources */,
 				176F2A4726CB6F67003321B7 /* Configuration */,
 				176F2A4626CB6D8D003321B7 /* ViewModels */,
 				176F2A4526CB6D7C003321B7 /* Models */,
 				176F2A4426CB6D6A003321B7 /* ViewControllers */,
 				176F2A4326CB6D52003321B7 /* Storyboards */,
-				176F2A1326CB5FE7003321B7 /* AppDelegate.swift */,
+				176F2A4B26CB7CFA003321B7 /* SupportingFiles */,
 				176F2A1526CB5FE7003321B7 /* SceneDelegate.swift */,
-				176F2A1C26CB5FEC003321B7 /* Assets.xcassets */,
-				176F2A1E26CB5FEC003321B7 /* LaunchScreen.storyboard */,
-				176F2A2126CB5FEC003321B7 /* Info.plist */,
+				176F2A1326CB5FE7003321B7 /* AppDelegate.swift */,
 			);
 			path = "Reddit-test";
 			sourceTree = "<group>";
@@ -134,6 +135,7 @@
 		176F2A4326CB6D52003321B7 /* Storyboards */ = {
 			isa = PBXGroup;
 			children = (
+				176F2A1E26CB5FEC003321B7 /* LaunchScreen.storyboard */,
 				176F2A1926CB5FE7003321B7 /* Main.storyboard */,
 			);
 			path = Storyboards;
@@ -166,6 +168,23 @@
 				176F2A4826CB6FA1003321B7 /* Configuration.swift */,
 			);
 			path = Configuration;
+			sourceTree = "<group>";
+		};
+		176F2A4A26CB7C93003321B7 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				176F2A1C26CB5FEC003321B7 /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		176F2A4B26CB7CFA003321B7 /* SupportingFiles */ = {
+			isa = PBXGroup;
+			children = (
+				176F2A4C26CB7D3F003321B7 /* reddift_config.json */,
+				176F2A2126CB5FEC003321B7 /* Info.plist */,
+			);
+			path = SupportingFiles;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -272,6 +291,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				176F2A2026CB5FEC003321B7 /* LaunchScreen.storyboard in Resources */,
+				176F2A4D26CB7D40003321B7 /* reddift_config.json in Resources */,
 				176F2A1D26CB5FEC003321B7 /* Assets.xcassets in Resources */,
 				176F2A1B26CB5FE7003321B7 /* Main.storyboard in Resources */,
 			);
