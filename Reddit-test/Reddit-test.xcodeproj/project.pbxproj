@@ -97,9 +97,12 @@
 		176F2A1226CB5FE7003321B7 /* Reddit-test */ = {
 			isa = PBXGroup;
 			children = (
+				176F2A4626CB6D8D003321B7 /* ViewModels */,
+				176F2A4526CB6D7C003321B7 /* Models */,
+				176F2A4426CB6D6A003321B7 /* ViewControllers */,
+				176F2A4326CB6D52003321B7 /* Storyboards */,
 				176F2A1326CB5FE7003321B7 /* AppDelegate.swift */,
 				176F2A1526CB5FE7003321B7 /* SceneDelegate.swift */,
-				176F2A1926CB5FE7003321B7 /* Main.storyboard */,
 				176F2A1C26CB5FEC003321B7 /* Assets.xcassets */,
 				176F2A1E26CB5FEC003321B7 /* LaunchScreen.storyboard */,
 				176F2A2126CB5FEC003321B7 /* Info.plist */,
@@ -123,6 +126,35 @@
 				176F2A3726CB5FEC003321B7 /* Info.plist */,
 			);
 			path = "Reddit-testUITests";
+			sourceTree = "<group>";
+		};
+		176F2A4326CB6D52003321B7 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				176F2A1926CB5FE7003321B7 /* Main.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		176F2A4426CB6D6A003321B7 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		176F2A4526CB6D7C003321B7 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		176F2A4626CB6D8D003321B7 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModels;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
