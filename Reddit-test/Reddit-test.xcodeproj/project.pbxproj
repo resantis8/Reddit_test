@@ -14,6 +14,7 @@
 		176F2A2026CB5FEC003321B7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 176F2A1E26CB5FEC003321B7 /* LaunchScreen.storyboard */; };
 		176F2A2B26CB5FEC003321B7 /* Reddit_testTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 176F2A2A26CB5FEC003321B7 /* Reddit_testTests.swift */; };
 		176F2A3626CB5FEC003321B7 /* Reddit_testUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 176F2A3526CB5FEC003321B7 /* Reddit_testUITests.swift */; };
+		176F2A4926CB6FA1003321B7 /* Configuration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 176F2A4826CB6FA1003321B7 /* Configuration.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		176F2A3126CB5FEC003321B7 /* Reddit-testUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Reddit-testUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		176F2A3526CB5FEC003321B7 /* Reddit_testUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Reddit_testUITests.swift; sourceTree = "<group>"; };
 		176F2A3726CB5FEC003321B7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		176F2A4826CB6FA1003321B7 /* Configuration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Configuration.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +99,7 @@
 		176F2A1226CB5FE7003321B7 /* Reddit-test */ = {
 			isa = PBXGroup;
 			children = (
+				176F2A4726CB6F67003321B7 /* Configuration */,
 				176F2A4626CB6D8D003321B7 /* ViewModels */,
 				176F2A4526CB6D7C003321B7 /* Models */,
 				176F2A4426CB6D6A003321B7 /* ViewControllers */,
@@ -155,6 +158,14 @@
 			children = (
 			);
 			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		176F2A4726CB6F67003321B7 /* Configuration */ = {
+			isa = PBXGroup;
+			children = (
+				176F2A4826CB6FA1003321B7 /* Configuration.swift */,
+			);
+			path = Configuration;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -287,6 +298,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				176F2A4926CB6FA1003321B7 /* Configuration.swift in Sources */,
 				176F2A1426CB5FE7003321B7 /* AppDelegate.swift in Sources */,
 				176F2A1626CB5FE7003321B7 /* SceneDelegate.swift in Sources */,
 			);
