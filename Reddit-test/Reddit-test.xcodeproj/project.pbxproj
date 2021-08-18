@@ -83,7 +83,6 @@
 		176F2AE026CC9F69003321B7 /* MasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 176F2ADF26CC9F69003321B7 /* MasterViewController.swift */; };
 		176F2AE226CCB837003321B7 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 176F2AE126CCB837003321B7 /* DetailViewController.swift */; };
 		176F2AE526CCBDED003321B7 /* StartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 176F2AE326CCBDED003321B7 /* StartViewController.swift */; };
-		176F2AE626CCBDED003321B7 /* StartViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 176F2AE426CCBDED003321B7 /* StartViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -186,7 +185,6 @@
 		176F2ADF26CC9F69003321B7 /* MasterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MasterViewController.swift; sourceTree = "<group>"; };
 		176F2AE126CCB837003321B7 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 		176F2AE326CCBDED003321B7 /* StartViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartViewController.swift; sourceTree = "<group>"; };
-		176F2AE426CCBDED003321B7 /* StartViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = StartViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -285,7 +283,6 @@
 				176F2ADF26CC9F69003321B7 /* MasterViewController.swift */,
 				176F2AE126CCB837003321B7 /* DetailViewController.swift */,
 				176F2AE326CCBDED003321B7 /* StartViewController.swift */,
-				176F2AE426CCBDED003321B7 /* StartViewController.xib */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -550,7 +547,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				176F2A2026CB5FEC003321B7 /* LaunchScreen.storyboard in Resources */,
-				176F2AE626CCBDED003321B7 /* StartViewController.xib in Resources */,
 				176F2ACD26CC329D003321B7 /* source.html in Resources */,
 				176F2A4D26CB7D40003321B7 /* reddift_config.json in Resources */,
 				176F2A1D26CB5FEC003321B7 /* Assets.xcassets in Resources */,

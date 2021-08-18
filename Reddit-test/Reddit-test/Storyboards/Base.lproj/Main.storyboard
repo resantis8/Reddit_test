@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="18122" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="kR2-l0-ZXL">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="18122" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="bHY-xU-AUK">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="18093"/>
@@ -34,6 +34,48 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="0XF-MJ-uEE" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="589" y="379"/>
+        </scene>
+        <!--Start View Controller-->
+        <scene sceneID="XRg-2J-hEP">
+            <objects>
+                <viewController id="bHY-xU-AUK" customClass="StartViewController" customModule="Reddit_test" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="LNu-OR-ZGw">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="y7D-4u-Cw2">
+                                <rect key="frame" x="122" y="416" width="170.5" height="64"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Connect to Reddit API" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8mb-u7-DB7">
+                                        <rect key="frame" x="0.0" y="0.0" width="170.5" height="20"/>
+                                        <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="17"/>
+                                        <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="T4R-Gu-0v4">
+                                        <rect key="frame" x="0.0" y="30" width="170.5" height="34"/>
+                                        <color key="backgroundColor" red="0.96193939449999999" green="0.2741701305" blue="0.0086883464830000007" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <state key="normal" title="Connect"/>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                                <integer key="value" value="5"/>
+                                            </userDefinedRuntimeAttribute>
+                                        </userDefinedRuntimeAttributes>
+                                    </button>
+                                </subviews>
+                            </stackView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="IvY-ej-SuL"/>
+                        <color key="backgroundColor" systemColor="systemGray6Color"/>
+                        <constraints>
+                            <constraint firstItem="y7D-4u-Cw2" firstAttribute="centerX" secondItem="LNu-OR-ZGw" secondAttribute="centerX" id="P9o-Qg-X3o"/>
+                            <constraint firstItem="y7D-4u-Cw2" firstAttribute="centerY" secondItem="LNu-OR-ZGw" secondAttribute="centerY" id="qLa-0m-6aD"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Xia-xI-9iV" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-278.26086956521743" y="786.16071428571422"/>
         </scene>
         <!--Root View Controller-->
         <scene sceneID="I7b-vy-7nn">
@@ -93,6 +135,7 @@
         <scene sceneID="Hyq-Ik-K2V">
             <objects>
                 <splitViewController allowDoubleColumnStyle="YES" id="kR2-l0-ZXL" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" id="lyO-vh-zJT"/>
                     <connections>
                         <segue destination="PrB-cv-5Qc" kind="relationship" relationship="masterViewController" id="7xT-64-gbx"/>
                         <segue destination="VMd-Hg-Tph" kind="relationship" relationship="detailViewController" id="oU2-a4-ATv"/>
@@ -106,6 +149,9 @@
     <resources>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemGray6Color">
+            <color red="0.94901960784313721" green="0.94901960784313721" blue="0.96862745098039216" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
     </resources>
 </document>
