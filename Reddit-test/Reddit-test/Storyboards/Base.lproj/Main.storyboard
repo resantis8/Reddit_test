@@ -8,15 +8,27 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
+        <!--Detail View Controller-->
         <scene sceneID="ISU-vo-UZQ">
             <objects>
-                <viewController id="VMd-Hg-Tph" sceneMemberID="viewController">
+                <viewController id="VMd-Hg-Tph" customClass="DetailViewController" customModule="Reddit_test" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="J7i-R1-ggO">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Hello, World!" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QhB-me-n7x">
+                                <rect key="frame" x="158.5" y="437.5" width="97.5" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
                         <viewLayoutGuide key="safeArea" id="TQa-eD-DNh"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="QhB-me-n7x" firstAttribute="centerX" secondItem="J7i-R1-ggO" secondAttribute="centerX" id="38i-iT-bIh"/>
+                            <constraint firstItem="QhB-me-n7x" firstAttribute="centerY" secondItem="J7i-R1-ggO" secondAttribute="centerY" id="BkU-AX-MTb"/>
+                        </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="0XF-MJ-uEE" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>

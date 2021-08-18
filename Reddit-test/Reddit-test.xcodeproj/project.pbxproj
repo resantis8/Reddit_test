@@ -81,6 +81,7 @@
 		176F2ADC26CC35CD003321B7 /* HTMLSpecialCharacters in Frameworks */ = {isa = PBXBuildFile; productRef = 176F2ADB26CC35CD003321B7 /* HTMLSpecialCharacters */; };
 		176F2ADE26CC3CDA003321B7 /* UserDefaults+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 176F2ADD26CC3CDA003321B7 /* UserDefaults+Extension.swift */; };
 		176F2AE026CC9F69003321B7 /* MasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 176F2ADF26CC9F69003321B7 /* MasterViewController.swift */; };
+		176F2AE226CCB837003321B7 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 176F2AE126CCB837003321B7 /* DetailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -181,6 +182,7 @@
 		176F2A9326CC329D003321B7 /* Listing.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Listing.swift; sourceTree = "<group>"; };
 		176F2ADD26CC3CDA003321B7 /* UserDefaults+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UserDefaults+Extension.swift"; sourceTree = "<group>"; };
 		176F2ADF26CC9F69003321B7 /* MasterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MasterViewController.swift; sourceTree = "<group>"; };
+		176F2AE126CCB837003321B7 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -277,6 +279,7 @@
 			isa = PBXGroup;
 			children = (
 				176F2ADF26CC9F69003321B7 /* MasterViewController.swift */,
+				176F2AE126CCB837003321B7 /* DetailViewController.swift */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -603,6 +606,7 @@
 				176F2AA326CC329D003321B7 /* Token.swift in Sources */,
 				176F2A9D26CC329D003321B7 /* NSBundle+reddift.swift in Sources */,
 				176F2ABE26CC329D003321B7 /* Link.swift in Sources */,
+				176F2AE226CCB837003321B7 /* DetailViewController.swift in Sources */,
 				176F2AB926CC329D003321B7 /* Votable.swift in Sources */,
 				176F2A9526CC329D003321B7 /* Result.swift in Sources */,
 				176F2AA126CC329D003321B7 /* OAuth2AppOnlyToken.swift in Sources */,
