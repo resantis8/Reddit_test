@@ -83,6 +83,7 @@
 		176F2AE026CC9F69003321B7 /* MasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 176F2ADF26CC9F69003321B7 /* MasterViewController.swift */; };
 		176F2AE226CCB837003321B7 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 176F2AE126CCB837003321B7 /* DetailViewController.swift */; };
 		176F2AE526CCBDED003321B7 /* StartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 176F2AE326CCBDED003321B7 /* StartViewController.swift */; };
+		176F2AE826CCD952003321B7 /* StartViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 176F2AE726CCD952003321B7 /* StartViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -185,6 +186,7 @@
 		176F2ADF26CC9F69003321B7 /* MasterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MasterViewController.swift; sourceTree = "<group>"; };
 		176F2AE126CCB837003321B7 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 		176F2AE326CCBDED003321B7 /* StartViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartViewController.swift; sourceTree = "<group>"; };
+		176F2AE726CCD952003321B7 /* StartViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -297,6 +299,7 @@
 		176F2A4626CB6D8D003321B7 /* ViewModels */ = {
 			isa = PBXGroup;
 			children = (
+				176F2AE726CCD952003321B7 /* StartViewModel.swift */,
 			);
 			path = ViewModels;
 			sourceTree = "<group>";
@@ -589,6 +592,7 @@
 				176F2AB526CC329D003321B7 /* Session+helper.swift in Sources */,
 				176F2AA526CC329D003321B7 /* Session+moderation.swift in Sources */,
 				176F2A9626CC329D003321B7 /* Parser.swift in Sources */,
+				176F2AE826CCD952003321B7 /* StartViewModel.swift in Sources */,
 				176F2AB226CC329D003321B7 /* Session+gold.swift in Sources */,
 				176F2AAF26CC329D003321B7 /* Session+CAPTCHA.swift in Sources */,
 				176F2A9B26CC329D003321B7 /* HttpStatusWithBody.swift in Sources */,
