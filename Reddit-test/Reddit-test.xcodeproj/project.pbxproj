@@ -82,6 +82,8 @@
 		176F2ADE26CC3CDA003321B7 /* UserDefaults+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 176F2ADD26CC3CDA003321B7 /* UserDefaults+Extension.swift */; };
 		176F2AE026CC9F69003321B7 /* MasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 176F2ADF26CC9F69003321B7 /* MasterViewController.swift */; };
 		176F2AE226CCB837003321B7 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 176F2AE126CCB837003321B7 /* DetailViewController.swift */; };
+		176F2AE526CCBDED003321B7 /* StartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 176F2AE326CCBDED003321B7 /* StartViewController.swift */; };
+		176F2AE626CCBDED003321B7 /* StartViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 176F2AE426CCBDED003321B7 /* StartViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -183,6 +185,8 @@
 		176F2ADD26CC3CDA003321B7 /* UserDefaults+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UserDefaults+Extension.swift"; sourceTree = "<group>"; };
 		176F2ADF26CC9F69003321B7 /* MasterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MasterViewController.swift; sourceTree = "<group>"; };
 		176F2AE126CCB837003321B7 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		176F2AE326CCBDED003321B7 /* StartViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartViewController.swift; sourceTree = "<group>"; };
+		176F2AE426CCBDED003321B7 /* StartViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = StartViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -280,6 +284,8 @@
 			children = (
 				176F2ADF26CC9F69003321B7 /* MasterViewController.swift */,
 				176F2AE126CCB837003321B7 /* DetailViewController.swift */,
+				176F2AE326CCBDED003321B7 /* StartViewController.swift */,
+				176F2AE426CCBDED003321B7 /* StartViewController.xib */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -544,6 +550,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				176F2A2026CB5FEC003321B7 /* LaunchScreen.storyboard in Resources */,
+				176F2AE626CCBDED003321B7 /* StartViewController.xib in Resources */,
 				176F2ACD26CC329D003321B7 /* source.html in Resources */,
 				176F2A4D26CB7D40003321B7 /* reddift_config.json in Resources */,
 				176F2A1D26CB5FEC003321B7 /* Assets.xcassets in Resources */,
@@ -573,6 +580,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				176F2AE526CCBDED003321B7 /* StartViewController.swift in Sources */,
 				176F2A4926CB6FA1003321B7 /* Configuration.swift in Sources */,
 				176F2AD226CC329D003321B7 /* Listing.swift in Sources */,
 				176F2AA026CC329D003321B7 /* OAuth2Authorizer.swift in Sources */,
