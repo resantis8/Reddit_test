@@ -8,11 +8,25 @@
 import UIKit
 
 class StartViewController: UIViewController {
+    
+    // MARK: - Properties
+    
+    var viewModel: StartViewModel? {
+        didSet {
+            guard let viewModel = viewModel else {
+                return
+            }
+            
+            setupViewModel(with: viewModel)
+        }
+    }
+    
+    @IBOutlet var connectButton: UIButton?
+    
+    // MARK: - View Life Cycle
 
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
     }
 
 
@@ -25,5 +39,11 @@ class StartViewController: UIViewController {
         // Pass the selected object to the new view controller.
     }
     */
+    
+    // MARK: - Private methods
+    
+    private func setupViewModel(with viewModel: StartViewModel) {
+        
+    }
 
 }

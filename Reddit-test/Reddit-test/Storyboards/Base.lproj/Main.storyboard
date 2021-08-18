@@ -72,6 +72,9 @@
                             <constraint firstItem="y7D-4u-Cw2" firstAttribute="centerY" secondItem="LNu-OR-ZGw" secondAttribute="centerY" id="qLa-0m-6aD"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="connectButton" destination="T4R-Gu-0v4" id="QHP-Tf-0ga"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Xia-xI-9iV" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
